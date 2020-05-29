@@ -1,0 +1,116 @@
+body {
+  min-width: 100vh;
+}
+.container {
+  width: 70vw !important;
+  background-color: #ebf4fc;
+  min-height: 70vh;
+  margin-top: 8%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+.cart-icon {
+  position: absolute !important;
+  top: -5%;
+  width: 10vh !important;
+  height: 10vh !important;
+  background-color: #284562 !important;
+  -webkit-box-shadow: 0px 10px 39px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 39px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 39px -12px rgba(0, 0, 0, 0.75);
+}
+.card {
+  width: 90% !important;
+  margin-top: 30px;
+  top: 10% !important;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255) !important;
+  min-height: 20vh;
+  -webkit-box-shadow: 0px 4px 19px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 19px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 19px -12px rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+.course-img {
+  height: 20vh;
+  background-image: url(https://cdn.worldvectorlogo.com/logos/react.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 0 !important;
+}
+.content {
+  display: inline;
+  padding-top: 0 !important;
+  position: relative;
+  max-height: 24vh;
+  overflow-y: auto;
+}
+.price {
+  display: inline;
+  text-align: center;
+}
+.save-btn {
+  color: #ebf4fc !important;
+  background-color: #284562 !important;
+  margin-top: 15% !important;
+}
+.navbar {
+  background-color: #213a53 !important;
+}
+.price {
+  position: relative;
+}
+.remove {
+  position: absolute;
+  right: 2vh;
+  top: -3vh;
+  cursor: pointer;
+}
+.footer {
+  min-height: 100px;
+  background-color: #284562;
+  margin-top: 5%;
+}
+.lower {
+  padding: 5%;
+  background-color: #ebf4fc;
+  align-items: center;
+  padding-bottom: 0% !important;
+  justify-content: center;
+  text-align: center;
+  width: 20vw;
+  margin-right: 1vw;
+  -webkit-box-shadow: 0px 4px 19px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 19px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 19px -12px rgba(0, 0, 0, 0.75);
+}
+.checkout {
+  color: #ebf4fc !important;
+  background-color: #284562 !important;
+  margin-top: 60% !important;
+}
+.lower h1 {
+  font-weight: 300;
+}
+.lower-container {
+  margin-top: 20vh !important;
+  height: 70vh !important;
+  margin-right: 2%;
+  width: 20vw !important;
+}
+.savefor {
+  margin-top: 30px !important;
+}
+.empty-cart {
+  min-width: 50vw;
+  min-height: 50vw;
+  background-image: url(https://livelo.bike/empty-cart.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
